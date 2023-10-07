@@ -33,6 +33,9 @@ nav a:hover{
     color: whitesmoke;
     text-decoration: none;
 }
+.book:hover, .join:hover{
+    background-color: #F6AE2D
+}
 #background{
     background-color:#86BBD8 ;
 }
