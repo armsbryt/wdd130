@@ -133,7 +133,7 @@ nav{
 #hero-msg{
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 110px;
+    margin-top: 100px;
 }
 .card-img, .mountains {
     width: 100%;
@@ -186,6 +186,9 @@ nav{
     }
     #hero-msg {
         margin-top: 0;
+    }
+    #hero-msg h1{
+        color: black;
     }
     #hero-msg h4 {
         display: none;
