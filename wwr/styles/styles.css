@@ -130,6 +130,9 @@ nav{
     grid-row: 1/3;
     z-index: -1;
 }
+#hero-img{
+    width: 100%;
+}
 #hero-msg{
     grid-column: 2/3;
     grid-row: 1/2;
