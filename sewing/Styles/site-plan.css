@@ -5,25 +5,25 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #aaba99   ;
-  --secondary-color: #c3c3f3 ;
-  --accent1-color: navy ;
-  --accent2-color: #E6A9EC;
+  --primary-color: #396E94   ;
+  --secondary-color: #E7C24F ;
+  --accent1-color: #A42212;
+  --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Agbalumo";
-  --paragraph-font: "Playpen Sans", "Roboto Slab", "rubik";
+  --heading-font: "IM Fell French Canon SC";
+  --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: navy;  /* headlines on a white background */ 
-  --headline-color-on-color: navy; /* headlines on a colored background */ 
-  --paragraph-color-on-white: navy; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #c3c3f3; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #aaba99, #E6A9EC;
-  --nav-link-color: white;
-  --nav-background-color: #c3c3f3;
+  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #396E94  ;
+  --nav-link-color: #396E94;
+  --nav-background-color: #D4AC0D;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #aaba99;
+  --nav-hover-background-color: #396E94;
 }
 
 
