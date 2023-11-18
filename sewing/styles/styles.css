@@ -209,6 +209,9 @@ nav{
     footer {
         margin-top: 25px;
     }
+    .photo-img{
+        height: 80%;
+    }
 }
 .clothing-grid{
     display:grid;
