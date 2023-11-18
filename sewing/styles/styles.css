@@ -212,6 +212,14 @@ nav{
     .photo-img{
         height: 80%;
     }
+    .pclothing-grid{
+height: 100%;
+width: 100%;
+    }
+    .pclothing-grid img{
+        width: 100%;
+        height: 55%;
+    }
 }
 .clothing-grid{
     display:grid;
@@ -220,16 +228,118 @@ nav{
     justify-items: center;
     text-align: center;
     background-color: #86BBD8;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
+}
+.pclothing-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    justify-items: center;
+    text-align: center;
+    background-color: #86BBD8;
+    padding: 15px;
 }
 .photo-img{
     width: 100%;
     height: 100%;
     padding: 20px 0px;
 }
+.product-img{
+    width: 100%;
+    height: 80%;
+    padding: 15px;
+}
+.dress1{
+    grid-column:1/4;
+    grid-row: 1/2;
+}
+#dress2{
+    grid-column:1/4;
+    grid-row: 2/3;
+}
+.skirt1{
+    grid-column: 7/10;
+    grid-row: 1/2;
+}
+#skirt2{
+    grid-column: 7/10;
+    grid-row: 2/3;
+}
+.shirt1{
+    grid-column: 13/16;
+    grid-row: 1/2;
+}
+#shirt2{
+    grid-column:13/16;
+    grid-row: 2/3;
+}
+.baby{
+    grid-column: 19/22;
+    grid-row: 1/2;
+}
+#baby2{
+grid-column: 19/22;
+grid-row: 2/3;
+}
+.title-products{
+    text-align: center;
+    background-color: navy;
+    color: white;
+    width: 100%;
+    font-size: 40px;
+}
+#textp{
+    padding:70px 5px 5px 5px;
+    grid-column:4/7;
+    grid-row:2/3;
+    font-size: 15px;
+}
+#textp1{
+    padding:70px 5px 5px 5px;
+    grid-column:4/7;
+    grid-row:1/2;
+    font-size: 15px;
+}
+#text{
+    padding:70px 5px 5px 5px;
+    grid-column:10/13;
+    grid-row:1/2;
+    font-size: 15px;
+}
+#textp2{
+    padding:70px 5px 5px 5px;
+    grid-column:10/13;
+    grid-row:2/3;
+    font-size: 15px;
+}
+#textp3{
+    padding:70px 5px 5px 5px;
+    grid-column:16/19;
+    grid-row:1/2;
+    font-size: 15px;
+}
+#textp4a{
+    padding:70px 5px 5px 5px;
+    grid-column: 16/19;
+    grid-row:2/3;
+    font-size: 15px;
+}
+#textp4{
+    padding:70px 5px 5px 5px;
+    grid-column: 22/25;
+    grid-row:1/2;
+    font-size: 15px;
+}
+#textp5{
+    padding:70px 5px 5px 5px;
+    grid-column:22/25;
+    grid-row:2/3;
+    font-size: 15px;
+}
 .riv1{
     grid-column: 1/4;
     grid-row: 1/2;
+    width: 100%;
 }
 #riv2{
     grid-column: 1/4;
