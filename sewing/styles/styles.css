@@ -180,16 +180,26 @@ nav{
     #hero-msg h4 {
         display: none;
     }
-    .home-title {
-        font-size: 25px;
-        color: #6f7364;
+    header{
+        height: 100%;
+        width: 100%;
+    }
+    .msg{
+        height:100%;
+    }
+    .msg1{
+        height:100%;
+    }
+    .clothing-grid{
+        height: 100%;
+        width: 100%;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
     }
     #background {
-        display: none;
+        display: block;
     }
     .mountains, .msg {
         width: 80%;
