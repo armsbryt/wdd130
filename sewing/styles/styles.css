@@ -37,7 +37,8 @@ header{
     font-size: 35px;
 }
 nav a:hover{
-    background-color: #cbcbfc ;
+    color: #cbcbfc;
+    
 }
 .book, .join{
     background-color:navy;
