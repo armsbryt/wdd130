@@ -503,11 +503,6 @@ form {
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: auto;
-}
-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
