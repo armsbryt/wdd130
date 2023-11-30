@@ -286,6 +286,9 @@ width: 100%;
     border-radius: 10px;
     font-size: 30px;
 }
+.join2:hover{
+    background-color:#de5d83;
+}
 .home-grid{
     height: 100%;
     Width: auto;
