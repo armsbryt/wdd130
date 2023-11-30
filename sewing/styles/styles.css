@@ -227,11 +227,12 @@ width: 100%;
         height: 50%;
     }
     .Adjustments{
-        height: 250px;
+        height: 100%;
         width: 100%;
     }
     .Adjustments img{
-        height: 40%;
+        height: 50%;
+        width: 50%;
     }
 }
 .clothing-grid{
@@ -270,6 +271,20 @@ width: 100%;
 .Adjustments img{
  width: 400px;
  float: left;
+}
+.Adjustments p{
+    text-align: center;
+    line-height: 1.5em;
+}
+.join2{
+    text-align: center;
+    background-color:navy;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 30px;
 }
 .home-grid{
     height: 100%;
