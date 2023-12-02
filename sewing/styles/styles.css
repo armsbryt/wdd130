@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Playpen+Sans:wght@500;600&family=Roboto+Slab&family=Rubik&display=swap');
 .home-title{
-    font-family:'Playpen Sans', 'Noto Sans', 'Nunito';
+    font-family:'Agbalumo';
     font-size: 2em;
     margin-top:10px;
 }
@@ -22,12 +23,24 @@ main section{
 main section img{
     box-sizing: border-box;
 }
+body main{
+    font-family:'Playpen Sans'
+}
+.submain{
+    font-family:'Playpen Sans'
+}
+.finalmain{
+    font-family: 'Playpen Sans';
+}
 body{
     background-color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif, Arial;
     font-size: 22px;
     margin: 0;
     padding: 0;
+}
+
+body p{
+font-family: "Roboto Slab";
 }
 header{
     background-color:#de5d83;
@@ -35,6 +48,7 @@ header{
     grid-template-columns: 150px auto;   
     height: 200px;
     font-size: 35px;
+    font-family: 'Agbalumo';
 }
 nav a:hover{
     color: #cbcbfc;
@@ -145,7 +159,7 @@ nav{
     line-height: 2.5em;
     padding: 50px;
     box-shadow: 5px 5px 5px grey;
-    height: 600px;
+    min-height: 700px;
     display: inline-block;
     text-align: center;
 }
@@ -154,7 +168,7 @@ nav{
     line-height: 2.5em;
     padding: 35px;
     box-shadow: 5px 5px 5px grey;
-    height: 300px;
+    min-height: 400px;
     text-align: center;
 }
 @media screen and (max-width: 900px) {
