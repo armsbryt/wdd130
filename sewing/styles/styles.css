@@ -171,6 +171,9 @@ nav{
     min-height: 400px;
     text-align: center;
 }
+.title-products{
+    font-family: 'Rubik';
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -267,6 +270,7 @@ width: 100%;
     background-color: #86BBD8;
     padding: 15px;
 }
+
 .pclothing-grid2{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
